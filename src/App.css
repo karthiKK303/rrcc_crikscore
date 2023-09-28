@@ -1,38 +1,311 @@
 .App {
+ /* background-image: url("https://i.pinimg.com/originals/78/1d/67/781d6783a1465bcfd437146c334f783c.jpg"); */
+ /* background-size: 1092px 100vh; */
+ /* background-repeat: no-repeat; */
+ /* opacity: 10%; */
+}
+.maindiv
+{
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+}
+
+.img1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  opacity: 10%;
+}
+.input1{
+  width:200px;
+  text-align: center;
+  border-radius: 5px;
+ 
+}
+.Label1{
+  text-align:left;
+  padding-top: 30px;
+}
+.Button1{
+  text-align: center;
+  width: 150px;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-top: 15px;
+  background-color:lime;
+  color: white; 
+  margin-top: 10px;
+}
+.input2{
+  width:50px;
+  margin-left: 30px;
+  text-align: center;
+  border-radius: 5px;
+ 
+}
+.input3{
+  width:50px;
+  margin-left: 18px;
+  text-align: center;
+  border-radius: 5px;
+  
+}
+.Note1{
+  margin-top: 10px;
+}
+
+.Button2{
+  text-align: center;
+  width: 150px;
+  border-radius: 5px;
+  margin-top: 15px;
+  background-color:red;
+  color: white; 
+  
+}
+.main-tile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 3;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.tile{
+  width: 40%;
+  height: 70px;
+  color: white;
+  background-color: blueviolet;
+  border-radius: 5px;
+  margin-top: 10px;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.score-header{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 45%;
+  border: 1px solid  black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 2px gray;
+  margin-top: 10px;
+  height: 40px;
+}
+.teamname{
+  width: 100%;
+  height: 20px;
+}
+.scoreandover{
+  width: 100%;
+  height: 20px;
+}
+.crr{
+  width: 100%;
+  height: 20px;
+}
+.crrate{
+  width: 100%;
+  height: 20px;
+}
+.player-div{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 100%;
+}
+.playersandscore{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 45%;
+  border: 1px solid  black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 2px gray;
+  margin-top: 10px;
+}
+.p-ship{
+  width:100%;
+}
+.player1{
+  width: 100%;
+}
+.player2{
+  display: flex;
+  /* align-items: end; */
+  justify-content: left;
+  text-align: left;
+  width: 100%;
+  padding-left: 70%;
+}
+.checkbox-div{
+  display: flex;
+  width: 45%;
+  border: 1px solid  black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 2px gray;
+  margin-top: 10px; 
+} 
+.check{
+  height: 30px;
+  width: 100%;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.radio{
+  height: 30px;
+  width: 100%;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+  margin-left: 5px;
+}
+.thisover{
+  width: 45%;
+  text-align: center;
+  align-items: center;
+  border: 1px solid  black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 2px gray;
+  margin-top: 10px; 
+}
+.buttonrow1{
+  margin-top: 10px;
+width: 45%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+}
+.retire{
+  width: 30%;
+  text-align: center;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.wicket{
+  width: 30%;
+}
+.select{
+  width:100%;
+  height: 30px;
+  border: none;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.batandbowl{
+width: 45%;
+height: 100px;
+border: 1px solid  black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 2px gray;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.battingdiv1{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 50px;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.batting1image{
+  height: 50px;
+  width: 100%;
+}
+.img2{
+  height: 50px;
+  width: 100%;
+}
+.batting1score{
+  width:100%;
+  height: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.player1name{
+  width: 70%;
+  margin-top: 5px;
+  height: 25px;
+  border: 1px solid cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.player1score{
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+}
+.bowlingdiv1{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 50px; 
+}
+.bowling1image{
+  height: 50px;
+  width: 100%; 
+}
+.bowling1score{
+  width:100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+}
+.player3name{
+  width: 70%;
+  margin-top: 5px;
+  height: 25px;
+  border: 1px solid cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+}
+.player3score{
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.player4name{
+  .player3name{
+    width: 70%;
+    margin-top: 5px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
   }
 }
